@@ -1,0 +1,7 @@
+{% extends "admin/base.html" %}
+{%load static %}
+
+{% block branding %}
+<img class="logo" class="logo" src= {% static 'img/Logo.png' %} />
+<h1 id="site-name"><a href="{% url 'admin:index' %}">TODOLISTX</a></h1>
+{% endblock %}
