@@ -10,6 +10,8 @@ six = "*"
 python-dotenv = "*"
 faker = "*"
 coverage = "*"
+flake8 = "*"
+pytest = "*"
 
 [dev-packages]
 
