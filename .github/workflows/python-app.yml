@@ -29,4 +29,4 @@ jobs:
         pipenv install
     - name: Test with Unittest
       run: |
-        python manage.py test
+        pipenv run test
