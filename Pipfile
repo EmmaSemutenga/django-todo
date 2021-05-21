@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-validate-email = "*"
+Django = "*"
+validate_email = "*"
 six = "*"
 python-dotenv = "*"
-faker = "*"
+Faker = "*"
 coverage = "*"
 
 [dev-packages]
